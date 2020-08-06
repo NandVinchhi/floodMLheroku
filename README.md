@@ -8,12 +8,15 @@ Floodify is a web application that uses Machine Learning to predict floods based
 - run python app.py
 - You're Done!
 
+<<<<<<< HEAD
 ##### UPDATE AUG 3 2020: As a proof of concept, our web app currently deems Mumbai as "Unsafe" and at risk for a flood, and if you search up Mumbai weather, there are multiple reports from sources such as NDTV proclaiming that Mumbai is facing intensely heavy rain and flooding. Check out the link below.
 
 Link - https://www.ndtv.com/mumbai-news/mumbai-rain-heavy-rain-floods-parts-of-mumbai-city-on-red-alert-for-2-days-2273668
 
 ## What makes Floodify Unique? / Originality
 Due to the large amounts of flood-related data available for the US, creating a model to predict and determine future floods in the US is a relatively unpretentious task. However, given the extremely limited data available regarding floods in India, we chose to challenge ourself to innovate a method to create a prediction model for the Indian Subcontinent. Thus, instead of using the more natural satellite image analysis, we opted for a new and innovative method. We chose to analyze and mine flood reports from local news sources in India, from which we extracted the location and time frame of the flood. We then extracted weather conditions – temperature, max temperature, wind speed, cloud cover, humidity, precipitation – at the time and location of the floods, which allowed us to create a robust dataset for effective predictions. This unique approach is what sets Floodify apart.
+=======
+>>>>>>> 5bd673c5d82d8436371dc8ef113c5790fd4a3c2a
 
 ## Inspiration
 Floods are one of the most dangerous and frequent natural disasters in the world.

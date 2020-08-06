@@ -74,7 +74,7 @@ def get_predicts():
         print(cityname)
         URL = "https://geocode.search.hereapi.com/v1/geocode"
         location = cityname
-        api_key = ' LHtLOXHyYWrAYEFNbXIQg8BM6PEY8Jryp88mmHYvAGw' # Acquire from developer.here.com
+        api_key = 'LHtLOXHyYWrAYEFNbXIQg8BM6PEY8Jryp88mmHYvAGw' # Acquire from developer.here.com
         PARAMS = {'apikey':api_key,'q':location} 
         # sending get request and saving the response as response object 
         r = requests.get(url = URL, params = PARAMS) 

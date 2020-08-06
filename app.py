@@ -35,7 +35,7 @@ def satellite():
     with open(direc, "rb") as image_file:
         image = base64.b64encode(image_file.read())
     image = image.decode('utf-8')
-    return render_template('satellite.html', data=data, image_file=image, months=months, text="Delhi in July 2020")
+    return render_template('satellite.html', data=data, image_file=image, months=months, text="Delhi in January 2020")
 
 @app.route('/satellite.html', methods=['GET', 'POST'])
 def satelliteimages():

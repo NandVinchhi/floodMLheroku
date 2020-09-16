@@ -1,5 +1,5 @@
 # FloodML
-FloodML is a web application that uses Machine Learning to predict floods based on weather and and various historical data.
+FloodML is a web application that uses Machine Learning to predict floods based on weather and various historical data.
 
 ## Getting started
 - Clone the project and install dependencies
@@ -19,7 +19,7 @@ Furthermore, climate change is increasing the risk of floods worldwide, particul
 Our team wanted to help solve this problem, so we created FloodML, a web application to predict floods and their impact before they even happen. Then, we display this information in an interactive graphical format, making the information compelling and easy to understand for people and governments alike.
   
 ## What it does
-FloodML is our solution to floods in India. It is a web app that uses advanced machine learning algorithms to predict future floods based on weather forecast data – precipation, wind speed, humidity, temperature, maximum temperature, cloud cover – while allowing users to effectively visualize current and upcoming floods. The app has 4 core components:
+FloodML is our solution to floods in India. It is a web app that uses advanced machine learning algorithms to predict future floods based on weather forecast data – precipitation, wind speed, humidity, temperature, maximum temperature, cloud cover – while allowing users to effectively visualize current and upcoming floods. The app has 4 core components:
 
 #### 1. Plots
 The 3 visualizations on the plots page are bubble plots that display flood predictions, damage predictions, and heavy rainfall predictions across India, taking in factors such as precipation, wind speed, humidity, temperature, cloud cover, as well as previous data history. Plots:
